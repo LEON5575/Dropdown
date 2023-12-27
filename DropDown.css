@@ -1,0 +1,43 @@
+/* img{
+ 
+    margin-top: 20px;
+    position: relative;
+    position: absolute;
+    position: sticky;
+    top: 50px;
+    left: 20px;
+} */
+nav{
+    background-color: rgb(245, 8, 87);
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 20px;
+    display: block;
+
+}
+a:hover{
+    background-color: whitesmoke;
+    color: darkolivegreen;
+}
+#menu{
+   list-style-type: none;
+   padding: 0;
+   position: absolute;
+   display: none;
+}
+#drop:hover #menu{
+         display: block;
+}
